@@ -8,11 +8,32 @@
     width:100%;
     font-size:20px;
     font-family:"Copperplate",fantasy;
-    padding:15px;
     font-weight:normal;
     letter-spacing:2px;
+    height:65px;
+    top:0;
+    position:fixed;
+}
+.left{
+    float:left;
+    padding-left:15px;
+    padding-top:15px;
 }
 
+
+.list a{
+    float:right;
+    padding-right:10px;
+    text-decoration:none;
+    color:white;
+    display:block;
+    line-height:65px;
+
+}
+.list a:hover{
+    background-color:silver;
+    color:black;
+}
 
 .welcome{
 
